@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "single_dicom": {
+    "endpoint": "/predict",
+    "http_status": 200,
+    "processing_status": "Success",
+    "anatomical_region": "Проксимальный отдел бедра",
+    "time_sec": 0.15,
+    "quality_prob": 0.54055
+  },
+  "batch_zip": {
+    "endpoint": "/predict-zip?format=csv",
+    "http_status": 200,
+    "rows": 3,
+    "success": 3,
+    "failure": 0
+  },
+  "contract": "PASS",
+  "note": "Times are authoring-runtime CPU timings, not H200 acceptance timings."
+}

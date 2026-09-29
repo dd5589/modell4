@@ -1,0 +1,13 @@
+{
+  "device": "cuda",
+  "gpu_name": "REPLACE_ON_TARGET",
+  "driver_version": "REPLACE_ON_TARGET",
+  "n": 200,
+  "p50_ms": null,
+  "p95_ms": null,
+  "mean_ms": null,
+  "max_ms": null,
+  "throughput_images_per_sec": null,
+  "gpu_memory_used_mb": null,
+  "note": "Populate by running scripts/benchmark_h200.sh on the target H200 VM."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "archive": "participant-visible Для теста.zip",
+  "rows": 3,
+  "success": 3,
+  "failure": 0,
+  "schema": "PASS",
+  "quality_prob_range": "PASS",
+  "organizer_vocab": "PASS"
+}

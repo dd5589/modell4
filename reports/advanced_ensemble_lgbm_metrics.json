@@ -1,0 +1,15 @@
+{
+  "evaluation": "3-fold study-level OOF for LightGBM bagger only",
+  "warning": "Engineering evidence only; rare positive support is small.",
+  "spine": {
+    "quality": {"f1": 0.516, "roc_auc": 0.524, "pr_auc": 0.357},
+    "placement": {"f1": 0.571, "roc_auc": 0.801, "pr_auc": 0.362},
+    "axis": {"f1": 0.316, "roc_auc": 0.606, "pr_auc": 0.194},
+    "artifact": {"f1": 0.421, "roc_auc": 0.608, "pr_auc": 0.252}
+  },
+  "hip": {
+    "quality": {"f1": 0.600, "roc_auc": 0.644, "pr_auc": 0.489},
+    "rotation": {"f1": 0.528, "roc_auc": 0.655, "pr_auc": 0.483},
+    "roi": {"f1": 0.286, "roc_auc": 0.510, "pr_auc": 0.258}
+  }
+}

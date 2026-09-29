@@ -1,0 +1,56 @@
+[
+  {
+    "anatomical_region": {
+      "old": "Поясничный отдел позвоночника",
+      "new": "Поясничный отдел позвоночника"
+    },
+    "quality_class": {
+      "old": 0,
+      "new": 0
+    },
+    "violation_type": {
+      "old": "",
+      "new": ""
+    },
+    "processing_status": {
+      "old": "Success",
+      "new": "Success"
+    }
+  },
+  {
+    "anatomical_region": {
+      "old": "Проксимальный отдел бедра",
+      "new": "Проксимальный отдел бедра"
+    },
+    "quality_class": {
+      "old": 1,
+      "new": 1
+    },
+    "violation_type": {
+      "old": "Некорректная укладка",
+      "new": "Некорректная укладка"
+    },
+    "processing_status": {
+      "old": "Success",
+      "new": "Success"
+    }
+  },
+  {
+    "anatomical_region": {
+      "old": "Проксимальный отдел бедра",
+      "new": "Проксимальный отдел бедра"
+    },
+    "quality_class": {
+      "old": 1,
+      "new": 1
+    },
+    "violation_type": {
+      "old": "Некорректная укладка",
+      "new": "Некорректная укладка"
+    },
+    "processing_status": {
+      "old": "Success",
+      "new": "Success"
+    }
+  }
+]

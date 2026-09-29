@@ -1,0 +1,27 @@
+{
+  "region": "hip",
+  "metrics": {
+    "quality": {
+      "f1": 0.5714285714285714,
+      "roc_auc": 0.5666666666666667,
+      "pr_auc": 0.6133838383838384
+    },
+    "rotation": {
+      "f1": 0.5714285714285714,
+      "roc_auc": 0.5166666666666666,
+      "pr_auc": 0.5405816405816406
+    },
+    "roi": {
+      "f1": 0.0,
+      "roc_auc": null,
+      "pr_auc": null
+    }
+  },
+  "thresholds": {
+    "quality": 0.1,
+    "rotation": 0.15000000000000002,
+    "roi": 0.5
+  },
+  "n_studies": 78,
+  "n_images": 331
+}

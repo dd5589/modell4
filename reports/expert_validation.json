@@ -1,0 +1,26 @@
+{
+  "spine_axis": {
+    "n_holdout_studies": 20,
+    "positive_holdout_studies": 1,
+    "roc_auc": 0.8947368421052632,
+    "pr_auc": 0.3333333333333333,
+    "f1@0.5": 0.0,
+    "threshold": 0.5
+  },
+  "spine_artifact": {
+    "n_holdout_studies": 20,
+    "positive_holdout_studies": 6,
+    "roc_auc": 0.7738095238095238,
+    "pr_auc": 0.6714285714285714,
+    "f1@0.5": 0.0,
+    "threshold": 0.5
+  },
+  "hip_rotation": {
+    "n_holdout_studies": 16,
+    "positive_holdout_studies": 6,
+    "roc_auc": 0.7833333333333333,
+    "pr_auc": 0.7763278388278388,
+    "f1@0.5": 0.2857142857142857,
+    "threshold": 0.5
+  }
+}

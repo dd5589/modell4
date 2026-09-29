@@ -1,0 +1,19 @@
+{
+  "deep_cnn_members": 6,
+  "hog_heads": 7,
+  "clinical_experts": 4,
+  "lgbm_members": 28,
+  "total_internal_members": 45,
+  "external_output_unchanged": true,
+  "output_fields": [
+    "path_to_study",
+    "study_uid",
+    "image_uid",
+    "anatomical_region",
+    "quality_class",
+    "violation_type",
+    "processing_status",
+    "time_of_processing",
+    "quality_prob"
+  ]
+}

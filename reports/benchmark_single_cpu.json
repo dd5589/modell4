@@ -1,0 +1,11 @@
+{
+  "device": "cpu",
+  "n": 1,
+  "p50_ms": 146.4806009998938,
+  "p95_ms": 146.4806009998938,
+  "mean_ms": 146.4806009998938,
+  "max_ms": 146.4806009998938,
+  "throughput_images_per_sec": 6.82684255235084,
+  "estimated_3_image_study_mean_ms": 439.4418029996814,
+  "estimated_3_image_study_p95_ms": 439.4418029996814
+}

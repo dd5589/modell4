@@ -1,0 +1,17 @@
+{
+  "region": "spine",
+  "target": "quality",
+  "n_studies": 99,
+  "positive_studies": 32,
+  "n_folds": 3,
+  "oof_f1": 0.5161290322580645,
+  "oof_auc": 0.5242537313432836,
+  "oof_prauc": 0.35709939195262397,
+  "threshold": 0.29000000000000004,
+  "fold_models": [
+    "spine_quality_fold0.txt",
+    "spine_quality_fold1.txt",
+    "spine_quality_fold2.txt"
+  ],
+  "full_model": "spine_quality_full.txt"
+}

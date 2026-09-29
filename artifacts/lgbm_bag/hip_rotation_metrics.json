@@ -1,0 +1,17 @@
+{
+  "region": "hip",
+  "target": "rotation",
+  "n_studies": 78,
+  "positive_studies": 24,
+  "n_folds": 3,
+  "oof_f1": 0.5283018867924528,
+  "oof_auc": 0.6550925925925927,
+  "oof_prauc": 0.4832917144025628,
+  "threshold": 0.44999999999999996,
+  "fold_models": [
+    "hip_rotation_fold0.txt",
+    "hip_rotation_fold1.txt",
+    "hip_rotation_fold2.txt"
+  ],
+  "full_model": "hip_rotation_full.txt"
+}

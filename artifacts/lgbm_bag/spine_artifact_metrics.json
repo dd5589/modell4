@@ -1,0 +1,17 @@
+{
+  "region": "spine",
+  "target": "artifact",
+  "n_studies": 99,
+  "positive_studies": 17,
+  "n_folds": 3,
+  "oof_f1": 0.42105263157894735,
+  "oof_auc": 0.6076040172166428,
+  "oof_prauc": 0.2517713160663153,
+  "threshold": 0.31000000000000005,
+  "fold_models": [
+    "spine_artifact_fold0.txt",
+    "spine_artifact_fold1.txt",
+    "spine_artifact_fold2.txt"
+  ],
+  "full_model": "spine_artifact_full.txt"
+}

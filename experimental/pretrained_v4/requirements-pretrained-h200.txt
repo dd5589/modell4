@@ -1,0 +1,2 @@
+# Runtime/container already provides torch 2.10.0; torchvision is installed without replacing CUDA torch.
+torchvision==0.25.0

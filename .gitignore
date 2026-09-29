@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+.env
+*.log
+reports/local/
+data/raw/
+data/prepared/
+*.zip
+*.7z
+*.rar

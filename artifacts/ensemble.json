@@ -1,0 +1,43 @@
+{
+  "models": [
+    "fastcnn",
+    "dilatedcnn",
+    "depthwisecnn"
+  ],
+  "region_weights": {
+    "spine": {
+      "deep": 0.5,
+      "hog": 0.5
+    },
+    "hip": {
+      "deep": 1.0,
+      "hog": 0.0
+    }
+  },
+  "thresholds": {
+    "spine": {
+      "quality": 0.4,
+      "placement": 0.5,
+      "axis": 0.2,
+      "artifact": 0.4
+    },
+    "hip": {
+      "quality": 0.1,
+      "rotation": 0.1,
+      "roi": 0.5
+    }
+  },
+  "target_names": {
+    "spine": [
+      "quality",
+      "placement",
+      "axis",
+      "artifact"
+    ],
+    "hip": [
+      "quality",
+      "rotation",
+      "roi"
+    ]
+  }
+}

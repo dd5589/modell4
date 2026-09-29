@@ -1,0 +1,10 @@
+{
+  "release_id": "dexa-ai-freeze-2026-09-26",
+  "local_release_qa": "PASS",
+  "visible_debug_test": "PASS_3_OF_3",
+  "h200_target_acceptance": "PENDING_TARGET_HOST",
+  "hidden_closed_test": "PENDING_ORGANIZER_DATA",
+  "ready_for_target_host": true,
+  "ready_for_hidden_test": true,
+  "note": "No hidden closed-test score is claimed because the organizer does not provide that dataset to participants."
+}

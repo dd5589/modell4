@@ -1,0 +1,17 @@
+{
+  "region": "hip",
+  "target": "roi",
+  "n_studies": 78,
+  "positive_studies": 6,
+  "n_folds": 3,
+  "oof_f1": 0.2857142857142857,
+  "oof_auc": 0.5104166666666667,
+  "oof_prauc": 0.25767358352959757,
+  "threshold": 0.56,
+  "fold_models": [
+    "hip_roi_fold0.txt",
+    "hip_roi_fold1.txt",
+    "hip_roi_fold2.txt"
+  ],
+  "full_model": "hip_roi_full.txt"
+}

@@ -1,0 +1,12 @@
+DXA AI — Windows 10
+
+Двойной клик по START_WINDOWS.bat — это главное меню.
+
+Порядок:
+1) 1. Install / setup
+2) 3. Visible test
+3) 4. Manual gold audit
+4) 5. Docker (если установлен Docker Desktop)
+5) 6. H200 acceptance, если есть SSH-доступ к H200 VM
+
+Подробная инструкция: windows\README_WINDOWS10.md

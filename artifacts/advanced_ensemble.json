@@ -1,0 +1,25 @@
+{
+  "version": "0.3-advanced-stack",
+  "strategy": "deep-cnn + hog + task-experts + 3-fold+full LightGBM bagger",
+  "lgbm_members_per_target": 4,
+  "target_weights": {
+    "spine_quality": {"deep_hog": 0.70, "lgbm": 0.30},
+    "spine_placement": {"deep_expert": 0.75, "lgbm": 0.25},
+    "spine_axis": {"deep_expert": 0.80, "lgbm": 0.20},
+    "spine_artifact": {"deep_expert": 1.00, "lgbm": 0.00},
+    "hip_quality": {"deep": 0.75, "lgbm": 0.25},
+    "hip_rotation": {"deep_expert": 0.75, "lgbm": 0.25},
+    "hip_roi": {"deep_expert": 0.45, "lgbm": 0.55}
+  },
+  "feature_contract": {
+    "image_size": [192, 160],
+    "gray_percentile_normalization": [1, 99],
+    "raw_downsample_sizes": [32, 16],
+    "hog_orientations": 6,
+    "hog_pixels_per_cell": [16, 16],
+    "lbp_points": 8,
+    "lbp_radius": 2,
+    "pixel_size_x_mm": 0.60,
+    "pixel_size_y_mm": 1.05
+  }
+}

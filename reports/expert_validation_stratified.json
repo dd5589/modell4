@@ -1,0 +1,62 @@
+{
+  "spine_placement": {
+    "status": "ok",
+    "n_train_studies": 74,
+    "n_holdout_studies": 25,
+    "positive_train_studies": 4,
+    "positive_holdout_studies": 2,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "f1@0.5": 0.5,
+    "threshold": 0.5,
+    "note": "Target-specific stratified study-level split; use only as engineering evidence because rare positive support is small."
+  },
+  "spine_axis": {
+    "status": "ok",
+    "n_train_studies": 74,
+    "n_holdout_studies": 25,
+    "positive_train_studies": 7,
+    "positive_holdout_studies": 3,
+    "roc_auc": 0.7575757575757576,
+    "pr_auc": 0.4935897435897436,
+    "f1@0.5": 0.4,
+    "threshold": 0.5,
+    "note": "Target-specific stratified study-level split; use only as engineering evidence because rare positive support is small."
+  },
+  "spine_artifact": {
+    "status": "ok",
+    "n_train_studies": 74,
+    "n_holdout_studies": 25,
+    "positive_train_studies": 13,
+    "positive_holdout_studies": 4,
+    "roc_auc": 0.7380952380952381,
+    "pr_auc": 0.4254901960784314,
+    "f1@0.5": 0.0,
+    "threshold": 0.5,
+    "note": "Target-specific stratified study-level split; use only as engineering evidence because rare positive support is small."
+  },
+  "hip_rotation": {
+    "status": "ok",
+    "n_train_studies": 58,
+    "n_holdout_studies": 20,
+    "positive_train_studies": 18,
+    "positive_holdout_studies": 6,
+    "roc_auc": 0.6428571428571429,
+    "pr_auc": 0.5869200244200243,
+    "f1@0.5": 0.46153846153846156,
+    "threshold": 0.5,
+    "note": "Target-specific stratified study-level split; use only as engineering evidence because rare positive support is small."
+  },
+  "hip_roi": {
+    "status": "ok",
+    "n_train_studies": 58,
+    "n_holdout_studies": 20,
+    "positive_train_studies": 4,
+    "positive_holdout_studies": 2,
+    "roc_auc": 0.1111111111111111,
+    "pr_auc": 0.08388157894736842,
+    "f1@0.5": 0.0,
+    "threshold": 0.5,
+    "note": "Target-specific stratified study-level split; use only as engineering evidence because rare positive support is small."
+  }
+}

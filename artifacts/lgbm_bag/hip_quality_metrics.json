@@ -1,0 +1,17 @@
+{
+  "region": "hip",
+  "target": "quality",
+  "n_studies": 78,
+  "positive_studies": 28,
+  "n_folds": 3,
+  "oof_f1": 0.6,
+  "oof_auc": 0.6435714285714287,
+  "oof_prauc": 0.48918022499326813,
+  "threshold": 0.48,
+  "fold_models": [
+    "hip_quality_fold0.txt",
+    "hip_quality_fold1.txt",
+    "hip_quality_fold2.txt"
+  ],
+  "full_model": "hip_quality_full.txt"
+}

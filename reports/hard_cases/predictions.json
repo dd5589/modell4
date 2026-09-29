@@ -1,0 +1,69 @@
+[
+  {
+    "kind": "axis",
+    "study": "2.25.309085571913348252136520206003694446566",
+    "target": 1,
+    "image_uid": "1.2.643.5.1.13.13.12.2.77.8252.03121103130007121510030803050514",
+    "anatomical_region": "Поясничный отдел позвоночника",
+    "quality_class": 1,
+    "quality_prob": 0.6562686213616331,
+    "violation_type": "Не выравнена ось позвоночника",
+    "review_required": true,
+    "axis_angle_deg": 3.353395380928051,
+    "probabilities": {
+      "quality": 0.6562686213616331,
+      "placement": 0.13157671215154426,
+      "axis": 0.33642986001024033,
+      "artifact": 0.12612354089819036
+    },
+    "expert_probabilities": {
+      "placement": 0.09873194014429557,
+      "axis": 0.2501642626992127,
+      "artifact": 0.021546724210273933
+    }
+  },
+  {
+    "kind": "artifact",
+    "study": "2.25.307021710202910067378603383388989711646",
+    "target": 1,
+    "image_uid": "1.2.643.5.1.13.13.12.2.77.8252.00041503151008120109091101041101",
+    "anatomical_region": "Поясничный отдел позвоночника",
+    "quality_class": 1,
+    "quality_prob": 0.9177315293607582,
+    "violation_type": "Присутствуют посторонние предметы",
+    "review_required": true,
+    "axis_angle_deg": 0.05499936160840487,
+    "probabilities": {
+      "quality": 0.7012989306300816,
+      "placement": 0.08178380173834035,
+      "axis": 0.07987179155181126,
+      "artifact": 0.9026266461176771
+    },
+    "expert_probabilities": {
+      "placement": 0.012599803374644338,
+      "axis": 0.0356857047571274,
+      "artifact": 0.9983132530517183
+    }
+  },
+  {
+    "kind": "roi",
+    "study": "2.25.127126130998341190348103034690069487890",
+    "target": 1,
+    "image_uid": "1.2.643.5.1.13.13.12.2.77.8252.03120008051300001208141011101302",
+    "anatomical_region": "Проксимальный отдел бедра",
+    "quality_class": 1,
+    "quality_prob": 0.901502201984794,
+    "violation_type": "Некорректная укладка",
+    "review_required": true,
+    "axis_angle_deg": null,
+    "probabilities": {
+      "quality": 0.4570859372615814,
+      "rotation": 0.8400896191596985,
+      "roi": 0.38404375314712524
+    },
+    "expert_probabilities": {
+      "rotation": 0.9988024815770004,
+      "roi": 0.3586570006735246
+    }
+  }
+]

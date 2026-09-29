@@ -1,0 +1,17 @@
+{
+  "region": "spine",
+  "target": "placement",
+  "n_studies": 99,
+  "positive_studies": 6,
+  "n_folds": 3,
+  "oof_f1": 0.5714285714285714,
+  "oof_auc": 0.8010752688172043,
+  "oof_prauc": 0.3615023474178404,
+  "threshold": 0.35,
+  "fold_models": [
+    "spine_placement_fold0.txt",
+    "spine_placement_fold1.txt",
+    "spine_placement_fold2.txt"
+  ],
+  "full_model": "spine_placement_full.txt"
+}

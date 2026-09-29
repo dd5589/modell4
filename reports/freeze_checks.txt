@@ -1,0 +1,18 @@
+DXA Quality AI freeze audit — 2026-09-26
+
+PASS  source compileall
+PASS  6 deep model weight sets loaded strictly
+PASS  4 rare-label expert artifacts loaded
+PASS  deterministic CPU forward
+PASS  real DICOM reader on supplied training DICOM
+PASS  pytest DICOM smoke (1 passed)
+PASS  FastAPI /health
+PASS  FastAPI /predict on real DICOM
+PASS  FastAPI /predict-zip on supplied 3-file ZIP (3/3 Success)
+PASS  hard cases generated: axis, artifact, ROI
+PASS  CPU benchmark N=20 (74.54 ms/image mean in authoring runtime)
+PASS  SHA-256 manifest regenerated and self-checked (125 files)
+PENDING target host: Docker build
+PENDING target host: H200 CUDA benchmark
+PENDING organizer: hidden/closed test
+NOTE   499-image full CPU batch exceeded the authoring tool's 15-minute execution cap; this is a runtime limitation, not a model metric.

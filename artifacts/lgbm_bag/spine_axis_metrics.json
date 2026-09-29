@@ -1,0 +1,17 @@
+{
+  "region": "spine",
+  "target": "axis",
+  "n_studies": 99,
+  "positive_studies": 10,
+  "n_folds": 3,
+  "oof_f1": 0.3157894736842105,
+  "oof_auc": 0.6056179775280899,
+  "oof_prauc": 0.1941732305599644,
+  "threshold": 0.37,
+  "fold_models": [
+    "spine_axis_fold0.txt",
+    "spine_axis_fold1.txt",
+    "spine_axis_fold2.txt"
+  ],
+  "full_model": "spine_axis_full.txt"
+}

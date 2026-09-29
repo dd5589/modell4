@@ -1,0 +1,33 @@
+{
+  "region": "spine",
+  "metrics": {
+    "quality": {
+      "f1": 0.7058823529411765,
+      "roc_auc": 0.8095238095238095,
+      "pr_auc": 0.6909090909090908
+    },
+    "placement": {
+      "f1": 0.0,
+      "roc_auc": null,
+      "pr_auc": null
+    },
+    "axis": {
+      "f1": 0.0,
+      "roc_auc": 0.368421052631579,
+      "pr_auc": 0.07692307692307693
+    },
+    "artifact": {
+      "f1": 0.6666666666666666,
+      "roc_auc": 0.75,
+      "pr_auc": 0.6208333333333332
+    }
+  },
+  "thresholds": {
+    "quality": 0.35,
+    "placement": 0.5,
+    "axis": 0.9,
+    "artifact": 0.15000000000000002
+  },
+  "n_studies": 99,
+  "n_images": 166
+}

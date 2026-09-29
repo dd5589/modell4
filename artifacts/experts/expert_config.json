@@ -1,0 +1,51 @@
+{
+  "version": "0.2-expert",
+  "axis_rule": {
+    "criterion_deg": 5.0,
+    "sigmoid_scale_deg": 1.5
+  },
+  "target_weights": {
+    "spine_placement": {
+      "deep": 0.35,
+      "expert": 0.65
+    },
+    "spine_axis": {
+      "deep": 0.2,
+      "expert": 0.8
+    },
+    "spine_artifact": {
+      "deep": 0.35,
+      "expert": 0.65
+    },
+    "hip_rotation": {
+      "deep": 0.3,
+      "expert": 0.7
+    },
+    "hip_roi": {
+      "deep": 0.25,
+      "expert": 0.75
+    }
+  },
+  "metrics_inventory": {
+    "spine_placement": {
+      "n_images": 166,
+      "n_studies": 99,
+      "positive_studies": 6
+    },
+    "spine_artifact": {
+      "n_images": 166,
+      "n_studies": 99,
+      "positive_studies": 17
+    },
+    "hip_rotation": {
+      "n_images": 331,
+      "n_studies": 78,
+      "positive_studies": 24
+    },
+    "hip_roi": {
+      "n_images": 331,
+      "n_studies": 78,
+      "positive_studies": 6
+    }
+  }
+}

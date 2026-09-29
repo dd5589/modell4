@@ -1,0 +1,122 @@
+{
+  "region": "spine",
+  "n_studies": 99,
+  "n_images": 166,
+  "validation_studies": 20,
+  "deep_weight": 0.5,
+  "hog_weight": 0.5,
+  "thresholds": {
+    "quality": 0.4,
+    "placement": 0.5,
+    "axis": 0.1,
+    "artifact": 0.4
+  },
+  "metrics": {
+    "quality": {
+      "f1": 0.631578947368421,
+      "sensitivity": 1.0,
+      "specificity": 0.5,
+      "roc_auc": 0.8095238095238095,
+      "pr_auc": 0.6909090909090908,
+      "f1_ci95": [
+        0.3333333333333333,
+        0.8571428571428571
+      ],
+      "sensitivity_ci95": [
+        1.0,
+        1.0
+      ],
+      "specificity_ci95": [
+        0.23076923076923078,
+        0.7692307692307693
+      ],
+      "roc_auc_ci95": [
+        0.5881960784313726,
+        0.9780505952380952
+      ],
+      "pr_auc_ci95": [
+        0.31582386363636367,
+        0.9643452380952381
+      ]
+    },
+    "placement": {
+      "f1": 0.0,
+      "sensitivity": null,
+      "specificity": 1.0,
+      "roc_auc": null,
+      "pr_auc": 0.0,
+      "f1_ci95": [
+        0.0,
+        0.0
+      ],
+      "specificity_ci95": [
+        1.0,
+        1.0
+      ],
+      "pr_auc_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "axis": {
+      "f1": 0.09523809523809523,
+      "sensitivity": 1.0,
+      "specificity": 0.0,
+      "roc_auc": 0.368421052631579,
+      "pr_auc": 0.07692307692307693,
+      "f1_ci95": [
+        0.0,
+        0.2608695652173913
+      ],
+      "sensitivity_ci95": [
+        1.0,
+        1.0
+      ],
+      "specificity_ci95": [
+        0.0,
+        0.0
+      ],
+      "roc_auc_ci95": [
+        0.1578947368421053,
+        0.6111111111111112
+      ],
+      "pr_auc_ci95": [
+        0.0,
+        0.25
+      ]
+    },
+    "artifact": {
+      "f1": 0.7142857142857143,
+      "sensitivity": 0.8333333333333334,
+      "specificity": 0.7857142857142857,
+      "roc_auc": 0.75,
+      "pr_auc": 0.6208333333333332,
+      "f1_ci95": [
+        0.36363636363636365,
+        0.9411764705882353
+      ],
+      "sensitivity_ci95": [
+        0.5,
+        1.0
+      ],
+      "specificity_ci95": [
+        0.5384615384615384,
+        1.0
+      ],
+      "roc_auc_ci95": [
+        0.439989010989011,
+        0.9844322916666666
+      ],
+      "pr_auc_ci95": [
+        0.26246162280701757,
+        0.9666666666666667
+      ]
+    }
+  },
+  "models": [
+    "fastcnn",
+    "dilatedcnn",
+    "depthwisecnn"
+  ],
+  "split": "stratified 80/20 by study"
+}

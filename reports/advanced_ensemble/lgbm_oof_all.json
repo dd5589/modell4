@@ -1,0 +1,121 @@
+{
+  "spine_artifact": {
+    "region": "spine",
+    "target": "artifact",
+    "n_studies": 99,
+    "positive_studies": 17,
+    "n_folds": 3,
+    "oof_f1": 0.42105263157894735,
+    "oof_auc": 0.6076040172166428,
+    "oof_prauc": 0.2517713160663153,
+    "threshold": 0.31000000000000005,
+    "fold_models": [
+      "spine_artifact_fold0.txt",
+      "spine_artifact_fold1.txt",
+      "spine_artifact_fold2.txt"
+    ],
+    "full_model": "spine_artifact_full.txt"
+  },
+  "hip_roi": {
+    "region": "hip",
+    "target": "roi",
+    "n_studies": 78,
+    "positive_studies": 6,
+    "n_folds": 3,
+    "oof_f1": 0.2857142857142857,
+    "oof_auc": 0.5104166666666667,
+    "oof_prauc": 0.25767358352959757,
+    "threshold": 0.56,
+    "fold_models": [
+      "hip_roi_fold0.txt",
+      "hip_roi_fold1.txt",
+      "hip_roi_fold2.txt"
+    ],
+    "full_model": "hip_roi_full.txt"
+  },
+  "hip_quality": {
+    "region": "hip",
+    "target": "quality",
+    "n_studies": 78,
+    "positive_studies": 28,
+    "n_folds": 3,
+    "oof_f1": 0.6,
+    "oof_auc": 0.6435714285714287,
+    "oof_prauc": 0.48918022499326813,
+    "threshold": 0.48,
+    "fold_models": [
+      "hip_quality_fold0.txt",
+      "hip_quality_fold1.txt",
+      "hip_quality_fold2.txt"
+    ],
+    "full_model": "hip_quality_full.txt"
+  },
+  "spine_placement": {
+    "region": "spine",
+    "target": "placement",
+    "n_studies": 99,
+    "positive_studies": 6,
+    "n_folds": 3,
+    "oof_f1": 0.5714285714285714,
+    "oof_auc": 0.8010752688172043,
+    "oof_prauc": 0.3615023474178404,
+    "threshold": 0.35,
+    "fold_models": [
+      "spine_placement_fold0.txt",
+      "spine_placement_fold1.txt",
+      "spine_placement_fold2.txt"
+    ],
+    "full_model": "spine_placement_full.txt"
+  },
+  "hip_rotation": {
+    "region": "hip",
+    "target": "rotation",
+    "n_studies": 78,
+    "positive_studies": 24,
+    "n_folds": 3,
+    "oof_f1": 0.5283018867924528,
+    "oof_auc": 0.6550925925925927,
+    "oof_prauc": 0.4832917144025628,
+    "threshold": 0.44999999999999996,
+    "fold_models": [
+      "hip_rotation_fold0.txt",
+      "hip_rotation_fold1.txt",
+      "hip_rotation_fold2.txt"
+    ],
+    "full_model": "hip_rotation_full.txt"
+  },
+  "spine_axis": {
+    "region": "spine",
+    "target": "axis",
+    "n_studies": 99,
+    "positive_studies": 10,
+    "n_folds": 3,
+    "oof_f1": 0.3157894736842105,
+    "oof_auc": 0.6056179775280899,
+    "oof_prauc": 0.1941732305599644,
+    "threshold": 0.37,
+    "fold_models": [
+      "spine_axis_fold0.txt",
+      "spine_axis_fold1.txt",
+      "spine_axis_fold2.txt"
+    ],
+    "full_model": "spine_axis_full.txt"
+  },
+  "spine_quality": {
+    "region": "spine",
+    "target": "quality",
+    "n_studies": 99,
+    "positive_studies": 32,
+    "n_folds": 3,
+    "oof_f1": 0.5161290322580645,
+    "oof_auc": 0.5242537313432836,
+    "oof_prauc": 0.35709939195262397,
+    "threshold": 0.29000000000000004,
+    "fold_models": [
+      "spine_quality_fold0.txt",
+      "spine_quality_fold1.txt",
+      "spine_quality_fold2.txt"
+    ],
+    "full_model": "spine_quality_full.txt"
+  }
+}

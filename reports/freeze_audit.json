@@ -1,0 +1,30 @@
+{
+  "freeze_id": "dexa-ai-freeze-2026-09-26",
+  "audit_status": "PASS_WITH_TARGET_PENDING",
+  "compileall": "PASS",
+  "deep_weights_load": "PASS",
+  "expert_artifacts_load": "PASS",
+  "deterministic_forward": "PASS",
+  "dicom_reader_real_file": "PASS",
+  "prepare_dataset_from_training_zip": "PASS",
+  "organizer_output_contract": "PASS",
+  "pytest_with_real_dicom": "PASS",
+  "api_health": "PASS",
+  "api_single_dicom": "PASS",
+  "api_batch_zip": "PASS",
+  "debug_batch": {
+    "rows": 3,
+    "success": 3,
+    "failure": 0
+  },
+  "hard_cases": {
+    "axis": "PASS",
+    "artifact": "PASS",
+    "roi": "PASS"
+  },
+  "cpu_benchmark_20": "PASS",
+  "cpu_full_499_preflight": "TIMEOUT_IN_AUTHORING_ENV",
+  "docker_build": "PENDING_TARGET_HOST_NO_DOCKER_IN_AUTHORING_ENV",
+  "h200_gpu_benchmark": "PENDING_TARGET_HOST_NO_NVIDIA_GPU_IN_AUTHORING_ENV",
+  "hidden_closed_test": "PENDING_ORGANIZER_DATA"
+}

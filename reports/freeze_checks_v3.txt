@@ -1,0 +1,9 @@
+[1/5] compileall
+[2/5] deep weights load + finite forward
+PASS
+[3/5] expert artifact load
+PASS
+[4/5] deterministic forward
+PASS
+[5/5] transient-clean hash regeneration
+PASS (131 files)
